@@ -6,7 +6,7 @@ import * as firebase from 'firebase';
 // INITIALIZATION
 
 const QUOTES_COLLECTION = 'favorite_quotes';
-console.log(process.env);
+
 const config = {
     apiKey: process.env.FIREBASE_API_KEY,
     authDomain: process.env.FIREBASE_AUTH_DOMAIN,
