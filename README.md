@@ -1,6 +1,6 @@
-# Quotlifi
+# Quotlify
 
-Quotlifi is a quote browser and manager that allows one to search famous quotes and save them to a data store. The application is built using React, Redux for application state, and React Router for pages and navigation, and Firebase for a datastore.
+Quotlify is a quote browser and manager that allows one to search famous quotes and save them to a data store. The application is built using React, Redux for application state, and React Router for pages and navigation, and Firebase for a datastore.
 
 Features:
 
@@ -57,7 +57,7 @@ This is the first view that is displayed upon loading the application. It displa
 
 **Quote Of The Day Page Design**
 
-![quotlifi-qod-component](https://user-images.githubusercontent.com/33935506/35643325-a1e18150-06ce-11e8-8563-f6b9f81dffb2.png)
+![quotlify-qod-component](https://user-images.githubusercontent.com/33935506/35643325-a1e18150-06ce-11e8-8563-f6b9f81dffb2.png)
 
 ### Quotes Page
 
@@ -65,7 +65,7 @@ This view is responsible for providing quote search capability. The search funct
 
 **Quotes Design**
 
-![quotlifi-quotes-component](https://user-images.githubusercontent.com/33935506/35643481-1a374cb6-06cf-11e8-937e-64db9b813558.png)
+![quotlify-quotes-component](https://user-images.githubusercontent.com/33935506/35643481-1a374cb6-06cf-11e8-937e-64db9b813558.png)
 
 ### Favorite Quotes Page
 
@@ -73,7 +73,7 @@ Displays a list of favorite quotes . Each quote is displayed in a _card_ with a 
 
 **Favorite Quotes Design**
 
-![quotlifi-favquotes-component](https://user-images.githubusercontent.com/33935506/35643601-80c2dcca-06cf-11e8-8f09-8575f69fa7f8.png)
+![quotlify-favquotes-component](https://user-images.githubusercontent.com/33935506/35643601-80c2dcca-06cf-11e8-8f09-8575f69fa7f8.png)
 
 ---
 
