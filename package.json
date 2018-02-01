@@ -1,0 +1,61 @@
+{
+  "name": "react-redux-quotlify",
+  "version": "1.0.0",
+  "description": "A quote browser and manager that allows one to search famous quotes and save them to a data store",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack -d",
+    "build:watch": "webpack -d --watch",
+    "lint": "eslint .; exit 0",
+    "lint:fix": "eslint . --fix",
+    "serve": "webpack -p && live-server ./public",
+    "serve:dev": "webpack-dev-server --progress --open",
+    "start": "npm run serve",
+    "test": "echo \"No tests available\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drminnaar/react-redux-quotlify.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.1",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.18",
+    "css-loader": "^0.28.9",
+    "dotenv-webpack": "^1.5.4",
+    "eslint": "^4.16.0",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-react": "^7.6.1",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.6",
+    "html-webpack-plugin": "^2.30.1",
+    "live-server": "^1.2.0",
+    "node-sass": "^4.7.2",
+    "react-redux": "^5.0.6",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.20.1",
+    "url-loader": "^0.6.2",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.1"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "firebase": "^4.9.0",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-router-dom": "^4.2.2",
+    "redux": "^3.7.2",
+    "redux-promise-middleware": "^5.0.0",
+    "redux-thunk": "^2.2.0"
+  }
+}

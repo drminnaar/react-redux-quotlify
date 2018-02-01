@@ -1,0 +1,43 @@
+.quote-display {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.quote-display-author {
+    color: $primary-color;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bolder;
+    margin: 20px 20px;    
+    text-transform: capitalize;
+    max-width: 260px;
+    text-align: left;
+}
+
+.quote-display-content {
+    color: rgb(104, 104, 104);
+    font-size: 18px;
+    font-weight: bolder;
+    margin: 0 20px;
+    max-width: 260px;
+    text-align: left;
+}
+
+.quote-display-quotes {
+    color: $primary-color;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.quote-display-refresh {
+    cursor: pointer;
+    color: $secondary-color;
+    margin: 10px;
+    margin-left: 20px;
+}
+
+.quote-display-favorite {
+    cursor: pointer;
+    color: $secondary-color;
+    margin: 10px;    
+}

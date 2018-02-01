@@ -1,0 +1,18 @@
+.header {
+    background-color: $primary-color;
+    color: #fff;
+    line-height: 100px;
+    height: 100px;
+    width: 100%;
+    opacity: 0.8;
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+    z-index: 1000;
+}
+
+.brand {
+    font-size: 36px;
+    vertical-align: middle;
+}

@@ -1,0 +1,36 @@
+.menu {
+    margin-top: 50px;
+    text-align: center;    
+}
+
+.menu ul {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.menu ul > li {
+    display: inline-block;
+    width: 100px;
+}
+
+.menu ul > li > a {
+    display: block;
+    color: $primary-color;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+}
+
+.menu ul > li > a:hover {
+    font-weight: bolder;
+}
+
+.menu.selected {
+    color: $secondary-color;
+    font-weight: bolder;
+    border-bottom: 2px solid $secondary-color;
+    text-decoration: none;
+}
