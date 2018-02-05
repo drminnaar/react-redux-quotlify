@@ -98,6 +98,8 @@ Displays a list of favorite quotes . Each quote is displayed in a _card_ with a 
 * [React](https://reactjs.org/) - A javascript library for building user interfaces
 * [React Router] - Declarative routing for React
 * [Redux] - Redux is a predictable state container for JavaScript apps.
+* [Redux-Promise-Middleware] - Redux middleware for promises, async functions and conditional optimistic updates
+* [Redux-Thunk] - Thunk middleware for Redux
 * [Babel](https://babeljs.io/) - A transpiler for javascript
 * [Webpack](https://webpack.js.org/) - A module bundler
 * [SCSS](http://sass-lang.com/) - A css metalanguage
@@ -106,6 +108,8 @@ Displays a list of favorite quotes . Each quote is displayed in a _card_ with a 
 * [FavQs] Api - Provides quote data
 * [Firebase] - Provides database as a service
 * [Surge] - Static web publishing for Front-End Developers
+
+It should be noted that I have used [Redux-Promise-Middleware] and [Redux-Thunk] libraries as middleware to handle asynchronous operations like fetching and persisting data. The reason why I am using both is due to performing chained asynchronous operations. If you don't require chaining, then I recommend only using [Redux-Promise-Middleware]. I have chosen not to use [Redux Saga](https://github.com/redux-saga/redux-saga) because I consider it "next level". However I do believe that once you [grok](https://www.merriam-webster.com/dictionary/grok) it, then it actually simplifies things a lot. It will make for a good followup project.
 
 ---
 
@@ -250,6 +254,8 @@ I use [SemVer](http://semver.org/) for versioning. For the versions available, s
 
 * **Douglas Minnaar** - *Initial work* - [drminnaar](https://github.com/drminnaar)
 
+[Redux-Promise-Middleware]: https://github.com/pburtchaell/redux-promise-middleware
+[Redux-Thunk]: https://github.com/gaearon/redux-thunk
 [React Router]: https://reacttraining.com/react-router/
 [FavQs]: https://favqs.com/api
 [Firebase]: https://firebase.google.com/
